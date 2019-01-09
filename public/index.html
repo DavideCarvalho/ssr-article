@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Index entregue com SSR</title>
+</head>
+<body>
+  <h1>SSR funcionando!</h1>
+  <script>
+    const componentRoutes = ['/first'];
+    const path = window.location.pathname;
+    const isAValidComponentRoute = !componentRoutes.indexOf(path);
+    if (isAValidComponentRoute) {
+      fetch(`http://localhost:3000/api${window.location.pathname}`)
+        .then((dataStream) => dataStream.text())
+        .then((data) => document.body.innerHTML += data);
+    }
+  </script>
+</body>
+</html>
