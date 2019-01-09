@@ -13,7 +13,7 @@ app.get('/api/first', (req, res) => {
   customElements.define('x-skate', Skate);
   render(new Skate())
     .then((component) => res.send(component));
-})
+});
 app.get('*', (req, res) => {
   res.sendFile('index.html', { root: `${__dirname}/public` });
 });
