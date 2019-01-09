@@ -1,7 +1,7 @@
-Artigo sobre SSR
+#Artigo sobre SSR
 > Artigo sobre SSR no medium, explicando o que é, como usar, prós e contras. A fins de demonstração, utilizei Web Components
 
-Esse projeto foi feito como hands-on para o artigo ["Voltando as raízes com SSR"](). No artigo explico direitinho qual o conceito de SSR, o que ele ajuda e como fazer.
+Esse projeto foi feito como hands-on para o artigo ["Voltando as raízes com SSR"](https://medium.com/@dudousxd/voltando-as-ra%C3%ADzes-com-ssr-6ae60503e147). No artigo explico direitinho qual o conceito de SSR, o que ele ajuda e como fazer.
 
 Instalando
 Baixe o projeto pelo github usando git clone https://github.com/DavideCarvalho/ssr-article.git, depois disso é só baixar as dependências com o comando npm i (não esqueça de ter o node instalado)
