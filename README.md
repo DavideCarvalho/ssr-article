@@ -1,4 +1,4 @@
-#Artigo sobre SSR
+# Artigo sobre SSR
 > Artigo sobre SSR no medium, explicando o que é, como usar, prós e contras. A fins de demonstração, utilizei Web Components
 
 Esse projeto foi feito como hands-on para o artigo ["Voltando as raízes com SSR"](https://medium.com/@dudousxd/voltando-as-ra%C3%ADzes-com-ssr-6ae60503e147). No artigo explico direitinho qual o conceito de SSR, o que ele ajuda e como fazer.
